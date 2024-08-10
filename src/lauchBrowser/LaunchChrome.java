@@ -19,7 +19,7 @@ public class LaunchChrome {
 		WebDriver driver = new ChromeDriver();		
 		driver.get("https://www.selenium.dev/");
 		driver.manage().window().maximize();
-		driver.close();
+//		driver.close();
 	}
 
 }
